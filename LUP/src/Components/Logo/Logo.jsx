@@ -8,9 +8,9 @@ export const Logo = () => {
 <div className='lup'>
 <img src= {Logolup} alt="" />
 <div className='icons'>
-<a href="https://youtube.com/"><i class="bi bi-youtube"></i></a>
-<a href="https://twitch.com/"><i class="bi bi-twitch"></i></a>
-<a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+<a href="https://youtube.com/"><i className="bi bi-youtube"></i></a>
+<a href="https://twitch.com/"><i className="bi bi-twitch"></i></a>
+<a href="https://instagram.com/"><i className="bi bi-instagram"></i></a>
 </div>
 </div>
 
