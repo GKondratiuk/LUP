@@ -4,5 +4,6 @@ import Bienvenida from "./Bienvenida/Bienvenida";
 import { BookPhotos } from "./BookPhotos/BookPhotos";
 import Banner from "./Banner/Banner";
 import Video from './Video/Video.jsx'
-
-export{Nabvar, Logo, Bienvenida, BookPhotos, Banner, Video}
+import Banner2 from "./Banner2/Banner2";
+import Footer from "./Footer/Footer";
+export{Nabvar, Logo, Bienvenida, BookPhotos, Banner, Video, Banner2, Footer}

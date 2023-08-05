@@ -8,7 +8,7 @@ export const Logo = () => {
 <div className='lup'>
 <img src= {Logolup} alt="" />
 <div className='icons'>
-<a href="https://youtube.com/"><i className="bi bi-youtube"></i></a>
+<a href="https://www.youtube.com/@LUPProductora"><i className="bi bi-youtube"></i></a>
 <a href="https://twitch.com/"><i className="bi bi-twitch"></i></a>
 <a href="https://instagram.com/"><i className="bi bi-instagram"></i></a>
 </div>

@@ -1,5 +1,5 @@
 import {React} from 'react'
-import { Banner, Bienvenida, BookPhotos, Logo, Nabvar, Video,} from './Components'
+import { Banner, Banner2, Bienvenida, BookPhotos, Footer, Logo, Nabvar, Video,} from './Components'
 
 
 
@@ -11,10 +11,12 @@ const App = () => {
     <Nabvar/>
     <Logo/>
     <Bienvenida/>
-    <BookPhotos/>
     <Banner/>
     <Video/>
-    
+    <Banner2/>
+    <BookPhotos/>
+    <Footer/>
+  
   
     </>
   )

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Banner2Container{
+    background-color: var(--color-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner2Titulo{
+    color: black;
+    font-size: 3rem;
+}
+
+.Banner2Parrafo{
+    color: black;
+    font-size: 2rem;
+    width: 70vw;
+}
+
+    .linea{
+        border-top: 6px solid black;
+      padding: 0;
+      margin: 2rem;
+}
