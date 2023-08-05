@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.mainVideo{
+    display: flex;
+    background-color: var(--color-principal);
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+.video1{
+    display: flex;
+}
+.video{
+    display: flex;
+    height: 50vh;
+    width: 80vw;
+}
