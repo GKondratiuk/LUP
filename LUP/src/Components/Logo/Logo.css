@@ -13,20 +13,28 @@
 .logo1{
     background-color: var(--color-principal);
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+flex-direction: column;
     padding-top: 15vh;
     padding-bottom: 20vh;
 }
 
 .lup{
-    
+    display: flex;
+    justify-content: center;
 }
 
 .lup img {
     height: 70vh;
     width: 60vw;
+}
+
+.icons{
+    display: flex;
+    justify-content: end;
+    gap: 2.5rem;
+    background-color: #010001;
+    padding-right: 5vw;
+    
 }
 
 .bi-youtube{
@@ -44,11 +52,45 @@
     color: white;
 }
 
-.icons{
-    display: flex;
-    justify-content: end;
-    gap: 2.5rem;
-    background-color: #010001;
-    margin-top: -1rem;
+@media (max-width: 700px) {
+    .lup img {
+        height: 40vh;
+        width: 60vw;
+    }
+
+    .bi-youtube{
+        font-size: 3rem;
+        color: white;
+    }
+    
+    .bi-twitch{
+        font-size: 3rem;
+        color: white;
+    }
+    
+    .bi-instagram{
+        font-size: 3rem;
+        color: white;
+    }
+
 }
 
+@media (max-width: 350px) {
+    .bi-youtube{
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .bi-twitch{
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .bi-instagram{
+        font-size: 2rem;
+        color: white;
+    }
+    .icons{
+        justify-content: center;
+    }
+}

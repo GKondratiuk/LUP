@@ -19,3 +19,15 @@
     height: 50vh;
     width: 80vw;
 }
+
+@media (max-width: 350px) {
+    .video{
+        display: flex;
+        height: 20vh;
+        width: 80vw;
+}
+
+.video1{
+    margin-top: 2vh;
+}
+}

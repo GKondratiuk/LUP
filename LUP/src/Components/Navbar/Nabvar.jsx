@@ -12,6 +12,9 @@ export const Nabvar = () => {
       <h2>Sesiones</h2>
       <h2>Contacto</h2>
       </div>
+      <div className='navbarIcon'>
+      <i className="bi bi-list"></i>
+      </div>
     </main>
     
   )

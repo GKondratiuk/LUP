@@ -9,11 +9,11 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-principal);
-    height: 50vh;
+    
 }
 
 .bannerText h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .bannerText .h2b{
     margin-left: 4rem;
@@ -22,4 +22,32 @@
     border-top: 6px solid black;
   padding: 0;
   margin: 2rem;
+}
+
+
+@media (max-width: 1000px) {
+    .bannerText h2{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .bannerText h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .bannerText h2{
+        font-size: 0.8rem;
+        margin-left: 3vw;
+    }
+
+    .bannerText .h2b{
+        margin-left: 10vw;
+}
+
+.banner{
+    margin-top: -5vh;
+}
 }

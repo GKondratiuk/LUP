@@ -32,3 +32,13 @@
       padding: 0;
     margin: 3rem;
 }
+
+
+@media (max-width: 350px) {
+    .Banner2Titulo{
+        font-size: 0.6rem;
+    }
+    .Banner2Parrafo{
+        font-size: 0.6rem;
+    }
+}

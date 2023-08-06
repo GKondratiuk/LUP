@@ -14,6 +14,10 @@
     padding-right: 2vw;
 }
 
+.navbarIcon{
+    display: none;
+}
+
 .navbarContainer{
     display: flex; 
     gap: 2rem;
@@ -25,3 +29,17 @@
     font-weight: 600;
 
 }
+
+
+@media (max-width: 700px) {
+    .navbarContainer{
+        display: none;
+    }
+
+    .navbarIcon{
+        display: flex;
+        font-size: 2.0rem;
+        margin-right: 2vw;
+        margin-top: -9px;
+    }
+  }

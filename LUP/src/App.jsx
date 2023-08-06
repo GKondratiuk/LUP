@@ -11,13 +11,11 @@ const App = () => {
     <Nabvar/>
     <Logo/>
     <Bienvenida/>
-    <Banner/>
-    <Video/>
-    <Banner2/>
-    <BookPhotos/>
-    <Footer/>
-  
-  
+  <Banner/>
+  <Video/>
+  <Banner2/>
+  <BookPhotos/>
+  <Footer/>
     </>
   )
 }
