@@ -17,4 +17,11 @@
 .navbarContainer{
     display: flex; 
     gap: 2rem;
+    
+}
+
+.navbarContainer h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
 }

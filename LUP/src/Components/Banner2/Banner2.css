@@ -14,16 +14,21 @@
 .Banner2Titulo{
     color: black;
     font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .Banner2Parrafo{
     color: black;
-    font-size: 2rem;
-    width: 70vw;
+    font-size: 1.5rem;
+    width: 80vw;
 }
 
     .linea{
         border-top: 6px solid black;
       padding: 0;
-      margin: 2rem;
+    margin: 3rem;
 }

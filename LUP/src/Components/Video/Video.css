@@ -11,6 +11,8 @@
 }
 .video1{
     display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .video{
     display: flex;

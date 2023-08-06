@@ -17,7 +17,7 @@ Nuestras sesiones electroacústicas en vivo se graban con un enfoque artístico 
 Creemos en la importancia de capturar la auténtica energía y emoción de tus actuaciones, brindándote un escenario íntimo y personal donde puedas brillar. Queremos ayudarte a expandir tu alcance y llevar tu música a nuevas audiencias.
 
 En Sesiones Cuarto Ce, creemos en el poder de la música y estamos aquí para darte la oportunidad de mostrar tu arte de una forma verdaderamente única. Lo mejor es que nosotros nos ocupamos de todo para que vos.
-</p>
+</p> <br />
 <div className='linea'></div>
 </div>
 

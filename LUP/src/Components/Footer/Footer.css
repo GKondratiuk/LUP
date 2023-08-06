@@ -7,7 +7,9 @@
     background-color: black;
     
 }
-
+.footerContainer{
+    padding-top: 8vh;
+}
 .tituloFooter h2{
     color: var(--color-principal);
     font-size: 5rem;
