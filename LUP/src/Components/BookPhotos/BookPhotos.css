@@ -10,15 +10,16 @@
     justify-content: center;
     gap: 2rem;
     padding-bottom: 10vh;
-    
-    
 }
 
 .photo1{
     display: flex;
-    height: 85vh;
     margin-top: 5vh;
     
+}
+
+.photo1 img{
+    height: 85vh;
 }
 
 .photo2{
@@ -37,5 +38,31 @@
 .photo2 .img2{
     height: 40.8vh;
     
+}
+
+@media (max-width: 350px ){
+    
+    .Book{
+        flex-direction: column;
+    }
+    .photo1{
+    display: flex;
+    justify-content: center;
+
+}
+
+    .photo1 img{
+        height: 40vh;
+        
+    }
+
+    .photo2 .img1{
+        height: 20vh;
+    }
+
+    .photo2 .img2{
+        height: 20vh;
+    }
+
 }
 
