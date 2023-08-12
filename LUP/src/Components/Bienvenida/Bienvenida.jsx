@@ -4,9 +4,9 @@ import BienvenidaImagen from './BienvenidaImagen.jpg'
 
 export const Bienvenida = () => {
   return (
-    <main className='bienvenida'>
+    
       
-    <section className='bienvenidaContainer'>
+    <section className='bienvenida'>
 
       <h2>BIENVENIXS A LUP</h2>
 
@@ -16,7 +16,6 @@ export const Bienvenida = () => {
     
     </section>
 
-    </main>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Logo.css'
 import Logolup from './2b9edabcaf782ba42849a1aeaac7d4e2.png'
+import { Link } from 'react-router-dom'
 
 export const Logo = () => {
   return (
@@ -23,15 +24,15 @@ export const Logo = () => {
 </div>
 
 <div className='backstage'>
-<h2>BACKSTAGE</h2>
+<Link to={'backstage'}><h2>BACKSTAGE</h2></Link>
 </div>
 
 <div className='conocenos'>
-<h2>CONOCENOS</h2>
+<Link to={'conocenos'}><h2>CONOCENOS</h2></Link>
 </div>
 
 <div className='contactanos'>
-<h2>CONTACTANOS</h2>
+<Link to={'contactanos'}><h2>CONTACTANOS</h2></Link>
 </div>
 
 </div>
