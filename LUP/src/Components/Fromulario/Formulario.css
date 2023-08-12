@@ -3,9 +3,54 @@
     margin: 0;
     padding: 0;
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-principal);
+    
+}
+
+.vamos{
+    display: flex;
+    background-color: var(--color-secundario);
+   margin-top: 9%;
+   margin-bottom: 9%;
+    width: 100%;
+}
+
 .formularioContainer{
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
-    width: 50%;
+   color: var(--color-principal);
+    gap: 1rem;
+    width: 80%;
+    margin: 4%;
+    margin-left: 9%;
 }
+
+.formularioContainer label{
+    font-size: 24px;
+}
+
+.formularioContainer input{
+    border: none;
+    height: 6vh;
+    background-color: var(--color-principal); 
+    border-radius: 20px;
+}
+
+.formularioContainer textarea{
+    border: none;
+    background-color: var(--color-principal);
+    border-radius: 20px;
+}
+
+.formularioContainer button {
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: var(--color-principal);
+    margin-left: 70%;
+}
+

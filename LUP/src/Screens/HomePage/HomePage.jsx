@@ -1,7 +1,9 @@
 import React from 'react'
-
+import { Logo } from '../../Components'
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Logo/>
   )
 }
+
+export default HomePage

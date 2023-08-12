@@ -11,20 +11,21 @@ export const Formulario = () => {
 
   return (
     <main className='formulario'>
-       
-        <form className='formularioContainer' onSubmit={handleRegisterUser}>
-    <label htmlFor="nombre"></label>
-    <input type='text' placeholder='Nombre' name='nombre' id='nombre' />
-    <label htmlFor="email"></label>
-    <input type="email" placeholder='Email' name='email' id='email' />
-    <label htmlFor="textarea"></label>
-    <textarea cols="30" rows="2" name='textarea' id='textarea'></textarea>
+       <div className='vamos'>
+      <form className='formularioContainer' onSubmit={handleRegisterUser}>
+    <label htmlFor="nombre">Nombre:</label>
+    <input type='text' name='nombre' id='nombre' />
+    <label htmlFor="email">Email:</label>
+    <input type="email" name='email' id='email' />
+    <label htmlFor="textarea">Comentarios:</label>
+    <textarea cols="30" rows="5" name='textarea' id='textarea'></textarea>
+    
     <button type='submit'>Enviar</button>
-
+   
         </form>
-
+        </div>
         
-
+    
     </main>
   )
 }
