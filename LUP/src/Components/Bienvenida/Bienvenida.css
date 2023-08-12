@@ -13,25 +13,32 @@
     background-color: var(--color-secundario);
     
 }
-.bienvenida img{
-    width: 40%;
+.bienvenida iframe{
+    width: 90%;
     margin: 5%;
+    height: 40vh;
 }
 .palabras h2{
     color: white;
     font-size: 40px;
-    
+    margin-top: 2rem;
+    margin-left: 5%;
 }
 .palabras{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    
 }
 .palabras p{
     color: var(--color-principal);
     font-size: 20px;
+    margin: 2rem;
 }
 
+.bienvenida img{
+    width: 80%;
+    margin: 5%;
+}
 @media (max-width: 700px){
 .palabras h2{
     font-size: 25px;
