@@ -14,7 +14,6 @@ const App = () => {
   <Banner/>
   <Video/>
   <Banner2/>
-  <BookPhotos/>
   <Footer/>
     </>
   )
