@@ -6,63 +6,13 @@
 
 .Book{
     display: flex;
-    background-color: var(--color-principal);
-    justify-content: center;
-    gap: 2rem;
-    padding-bottom: 10vh;
-}
-
-.photo1{
-    display: flex;
-    margin-top: 5vh;
-    
-}
-
-.photo1 img{
-    height: 85vh;
-}
-
-.photo2{
-    display: flex;
     flex-direction: column;
+    background-color: var(--color-principal);
     gap: 2rem;
-    margin-top: 5vh;
-    
+    align-items: center;
+    padding: 2rem;
 }
 
-.photo2 .img1{
-    height: 40.8vh;
-    
+.Book img{
+    width: 50%;
 }
-
-.photo2 .img2{
-    height: 40.8vh;
-    
-}
-
-@media (max-width: 350px ){
-    
-    .Book{
-        flex-direction: column;
-    }
-    .photo1{
-    display: flex;
-    justify-content: center;
-
-}
-
-    .photo1 img{
-        height: 40vh;
-        
-    }
-
-    .photo2 .img1{
-        height: 20vh;
-    }
-
-    .photo2 .img2{
-        height: 20vh;
-    }
-
-}
-

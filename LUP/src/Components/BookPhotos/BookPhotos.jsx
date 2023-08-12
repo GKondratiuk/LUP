@@ -12,28 +12,17 @@ export const BookPhotos = () => {
 <>
 <section className='Book'>
 
-  <div className='photo1'>
-    <img src={BienvenidaImagen2} alt="" />
-  </div>
 
-  <div className='photo2'>
-    <img className='img1' src={BienvenidaImagen3} alt="" />
-    <img className='img2' src={BienvenidaImagen4} alt="" />
-  </div>
-</section>
-
-<section className='Book'>
-
-<div className='photo1'>
-  <img src={BienvenidaImagen6} alt="" />
-</div>
-
-<div className='photo2'>
-  <img className='img1' src={BienvenidaImagen5} alt="" />
-  <img className='img2' src={BienvenidaImagen7} alt="" />
-</div>
+    <img className='img2' src={BienvenidaImagen2} alt="" />
+    <img className='img3' src={BienvenidaImagen3} alt="" />
+    <img className='img4' src={BienvenidaImagen4} alt="" />
+    <img className='img2' src={BienvenidaImagen6} alt="" />
+    <img className='img5' src={BienvenidaImagen5} alt="" />
+    <img className='img7' src={BienvenidaImagen7} alt="" />
 
 </section>
+
+
 
 
 </>
