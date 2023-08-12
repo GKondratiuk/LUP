@@ -15,12 +15,10 @@
 
 .bienvenidaContainer1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: var(--color-secundario);
-   margin-left: 8vh;
-   margin-right: 10vh;
-    align-items: center;
     margin-bottom: 10vh;
+    
 }
 
 .bienvenidaContainer1Imagen img{
@@ -65,7 +63,6 @@ font-family: 'Poppins', sans-serif;
     
     .bienvenidaContainer1{
         flex-direction: column;
-        width: 100%;
         margin-left: 9vh;
 }
 .bienvenidaContainer1Letras h3{

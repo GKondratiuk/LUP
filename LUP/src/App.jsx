@@ -8,13 +8,8 @@ const App = () => {
 
   return (
     <>
-    <Nabvar/>
     <Logo/>
     <Bienvenida/>
-  <Banner/>
-  <Video/>
-  <Banner2/>
-  <Footer/>
     </>
   )
 }

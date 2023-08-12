@@ -20,12 +20,25 @@ flex-direction: column;
 
 .lup{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .lup img {
     height: 70vh;
     width: 60vw;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 60px;
+    color: white;
+    margin-top: 3vh;
+    
 }
 
 .icons{
@@ -52,10 +65,37 @@ flex-direction: column;
     color: white;
 }
 
+.home{
+    display: flex;
+    background-color: #010001;
+    
+}
+
+
+
+.backstage{
+    background-color: #010001;
+}
+
+.conocenos{
+    background-color: #010001;
+}
+
+.contactanos{
+    background-color: #010001;
+}
+
+
 @media (max-width: 700px) {
+    .lup{
+        display: flex;
+        justify-content: start;
+    }
+
+    
     .lup img {
         height: 40vh;
-        width: 60vw;
+        width: 70vw;
     }
 
     .bi-youtube{
@@ -73,9 +113,15 @@ flex-direction: column;
         color: white;
     }
 
+    .menu{
+        font-size: 40px;
+        
+    }
 }
 
-@media (max-width: 350px) {
+
+
+@media (max-width: 480px) {
     .bi-youtube{
         font-size: 2rem;
         color: white;
@@ -92,5 +138,9 @@ flex-direction: column;
     }
     .icons{
         justify-content: center;
+    }
+    .menu{
+        font-size: 25px;
+        
     }
 }
